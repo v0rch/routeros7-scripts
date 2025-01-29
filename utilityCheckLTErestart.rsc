@@ -1,5 +1,5 @@
 # ROS7 Script
-# Author: Ivan Vassilyev (@v0rch1g)
+# Author: Ivan Vassilyev (@v0rch)
 
 :local checkDuration 10; # В течение 10 секунд проверяется интерфейс.
 :local threshold 10000000;  # Если скорость ниже 10 Мбит/с, то lte интерфейс будет перезагружен
