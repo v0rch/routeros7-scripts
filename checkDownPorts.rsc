@@ -1,4 +1,7 @@
-#RouterOS Scripting
+# RouterOS Script
+# tested with RouterOS7, RouterOS6
+# Author: Ivan Vassilyev (@v0rch)
+
 :local targetPorts [:toarray "ether1,ether5,ether24"]; #Target ports to check
 :global rebootInfo; # global variable
 :if ([:len $rebootInfo]=0) do={ # check global var if not defined
